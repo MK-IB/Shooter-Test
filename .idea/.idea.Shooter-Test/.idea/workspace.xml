@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/TargetController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/UIGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/Miscellaneous/TextureScrolling.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/Game.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -36,8 +37,9 @@
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/TargetSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/ProjectilePool.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/Miscellaneous/TextureScrolling.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/PlayerController.cs" />
       </list>
     </option>
   </component>

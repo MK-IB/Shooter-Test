@@ -1,4 +1,5 @@
 using System;
+using _Shooter._Scripts.Miscellaneous;
 using UnityEngine;
 
 namespace _Shooter._Scripts.GameplayRelated
@@ -10,6 +11,8 @@ namespace _Shooter._Scripts.GameplayRelated
         public float moveSpeed = 5f;
         public Transform projectileSpawnPoint;
         public float projectileSpeed = 10f;
+
+        [SerializeField] private TextureScrolling _textureScrolling;
 
         private void Awake()
         {
@@ -25,6 +28,9 @@ namespace _Shooter._Scripts.GameplayRelated
 
             Vector3 moveDirection = new Vector3(moveX, 0f, moveZ).normalized;
             transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+            
+            //toggle robo leg texture scrolling by movement value
+            _textureScrolling.ToggleScroll(moveDirection.magnitude > 0);
 
             // Rotate to face to the Movement direction
             if (moveDirection != Vector3.zero)
