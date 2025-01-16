@@ -6,6 +6,7 @@ namespace _Shooter._Scripts.GameplayRelated
     {
         public static event Action OnTargetHit;
 
+        //invoking the event when a target is hit
         public static void TargetHit()
         {
             OnTargetHit?.Invoke();

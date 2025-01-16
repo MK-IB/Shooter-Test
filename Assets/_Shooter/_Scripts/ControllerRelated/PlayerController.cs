@@ -3,12 +3,11 @@ using UnityEngine;
 
 namespace _Shooter._Scripts.GameplayRelated
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : MonoBehaviour, IPlayerController
     {
         public static PlayerController instance;
-        
+
         public float moveSpeed = 5f;
-        public GameObject projectilePrefab;
         public Transform projectileSpawnPoint;
         public float projectileSpeed = 10f;
 
@@ -43,14 +42,12 @@ namespace _Shooter._Scripts.GameplayRelated
 
         public void ShootProjectile()
         {
-            if (projectilePrefab && projectileSpawnPoint)
+            GameObject projectile = ProjectilePool.instance.GetProjectile();
+            projectile.transform.position = projectileSpawnPoint.position;
+            Rigidbody rb = projectile.GetComponent<Rigidbody>();
+            if (rb)
             {
-                GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
-                Rigidbody rb = projectile.GetComponent<Rigidbody>();
-                if (rb)
-                {
-                    rb.velocity = transform.forward * projectileSpeed;
-                }
+                rb.velocity = transform.forward * projectileSpeed;
             }
         }
     }
