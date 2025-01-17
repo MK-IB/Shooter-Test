@@ -12,6 +12,6 @@ public class ScoreManager : MonoBehaviour, IScoreManager
     public void UpdateScore()
     {
         score += 10;
-        scoreText.text = "SCORE: " + score;
+        scoreText.text = score.ToString();
     }
 }

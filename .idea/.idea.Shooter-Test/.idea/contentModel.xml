@@ -34,7 +34,41 @@
           </e>
           <e p="Scenes" t="Include" />
         </e>
+        <e p="Epic Toon FX" t="Include">
+          <e p="Materials" t="Include">
+            <e p="Basics" t="Include" />
+            <e p="Clouds" t="Include" />
+            <e p="Misc" t="Include">
+              <e p="Explosions" t="Include" />
+            </e>
+          </e>
+          <e p="Prefabs" t="Include">
+            <e p="Combat" t="Include">
+              <e p="Explosions" t="Include">
+                <e p="NovaExplosion" t="Include" />
+              </e>
+            </e>
+            <e p="Environment" t="Include">
+              <e p="Smoke" t="Include">
+                <e p="White" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Sound" t="Include" />
+          <e p="Textures" t="Include" />
+        </e>
         <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX (legacy)" t="Include">
+            <e p="Materials (Mobile)" t="Include">
+              <e p="Animated" t="Include" />
+              <e p="Misc" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+            <e p="Spawn System" t="Include" />
+            <e p="Textures (Mobile)" t="Include" />
+          </e>
           <e p="Toony Colors Pro" t="Include">
             <e p="!ToonyColorsPro Readme.txt" t="Include" />
             <e p="Demo TCP2" t="Include">
@@ -349,9 +383,15 @@
             </e>
           </e>
         </e>
+        <e p="Material" t="Include" />
         <e p="Materials" t="Include" />
-        <e p="Prefabs" t="Include" />
+        <e p="Prefabs" t="Include">
+          <e p="Guns" t="Include" />
+        </e>
         <e p="Settings" t="Include" />
+        <e p="Shader" t="Include">
+          <e p="Game_Particles_OverAdditive.shader" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
           <e p="Fonts" t="Include">
@@ -388,6 +428,7 @@
             <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
+        <e p="Texture2D" t="Include" />
         <e p="Textures" t="Include" />
         <e p="TutorialInfo" t="Include">
           <e p="Icons" t="Include" />

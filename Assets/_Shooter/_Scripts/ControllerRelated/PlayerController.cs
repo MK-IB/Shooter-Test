@@ -13,6 +13,7 @@ namespace _Shooter._Scripts.GameplayRelated
         public float projectileSpeed = 10f;
 
         [SerializeField] private TextureScrolling _textureScrolling;
+        [SerializeField] private ParticleSystem muzzle;
 
         private void Awake()
         {
@@ -55,6 +56,7 @@ namespace _Shooter._Scripts.GameplayRelated
             {
                 rb.velocity = transform.forward * projectileSpeed;
             }
+            muzzle.Play();
         }
     }
 }

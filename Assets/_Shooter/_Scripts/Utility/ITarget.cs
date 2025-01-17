@@ -5,7 +5,7 @@ using UnityEngine;
 
 //all the interafaces needed in the game
 public interface ITarget
-{
+{ 
     public void OnProjectileHit();
 }
 
