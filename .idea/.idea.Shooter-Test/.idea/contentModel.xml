@@ -34,6 +34,7 @@
           </e>
           <e p="Scenes" t="Include" />
         </e>
+        <e p="Animations" t="Include" />
         <e p="Epic Toon FX" t="Include">
           <e p="Materials" t="Include">
             <e p="Basics" t="Include" />

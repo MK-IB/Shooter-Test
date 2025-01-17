@@ -26,7 +26,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/UIGame.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/Utility/ITargetFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/TargetController.cs" />
@@ -40,6 +39,7 @@
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/GameplayRelated/TargetSmart.cs" />
         <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Shooter/_Scripts/ControllerRelated/UIGame.cs" />
       </list>
     </option>
   </component>
